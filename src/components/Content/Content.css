@@ -7,7 +7,7 @@
     text-align: center;
 }
 
-/* MODIFIERS IN LAYOUT */
+/* MODIFICADORES EN EL DISEÑO */
 
 .content_type_justified > div {
     display: flex;
@@ -27,7 +27,7 @@
     justify-content: center;
 }
 
-/* TAGS IN CONTENT */
+/* ETIQUETAS EN EL CONTENIDO */
 
 .content .wrapper {
     display: flex;

@@ -18,18 +18,17 @@ function App() {
   const [reviews, setReviews] = useState([]);
 
   useEffect(() => {
-    // Fetch the review data from the server.
+    // Obtener los datos de la reseña del servidor.
     fetch("https://api.nomoreparties.co/emoji-critic-ens")
       .then((res) => {
         return res.json();
       })
       .then((data) => {
-        // Pass the parsed response body to the setter function.
+        // Pasa el cuerpo de la respuesta analizada a la función setter.
         setReviews(data);
       })
       .catch(console.error);
-    // An empty dependency array means the hook only runs when
-    // component launches.
+    // Un array de dependencias vacío significa que el hook sólo se ejecuta cuando se inicia el componente.
   }, []);
   return (
     <div className="App">

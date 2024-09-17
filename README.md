@@ -1,3 +1,3 @@
-# Emoji Critic
+# El analista de Emojis
 
-A small React application built with Vite. Used as a React Router demonstration by TripleTen's Software Engineering bootcamp.
+Una pequeña aplicación de React creada con Vite. La utilizamos en TripleTen como demostración de React Router en nuestro bootcamp de desarrollo web.
