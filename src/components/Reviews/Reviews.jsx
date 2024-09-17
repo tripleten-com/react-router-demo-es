@@ -1,7 +1,7 @@
 function Reviews() {
   return (
     <div>
-      <p>My reviews will go here!</p>
+      <p>¡Aquí irán mis reseñas!</p>
     </div>
   );
 }

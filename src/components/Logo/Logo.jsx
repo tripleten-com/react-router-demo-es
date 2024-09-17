@@ -3,10 +3,10 @@ import "./Logo.css";
 function Logo() {
   return (
     <p className="logo">
-      <span role="img" aria-label="Emoji critic logo">
+      <span role="img" aria-label="Logotipo de El analista de Emojis">
         🤔
       </span>{" "}
-      Emoji Critic
+      El analista de Emojis
     </p>
   );
 }
