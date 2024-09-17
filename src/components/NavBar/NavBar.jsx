@@ -8,16 +8,16 @@ function NavBar() {
   return (
     <nav className="menu">
       <NavLink to="/" className={customClassName}>
-        Home
+        Inicio
       </NavLink>
       <NavLink to="/reviews" className={customClassName}>
-        Emoji Reviews
+        Reseñas de emojis
       </NavLink>
       <NavLink to="/about-me" className={customClassName}>
-        About Me
+        Sobre mí
       </NavLink>
       <NavLink to="/about-us" className={customClassName}>
-        About Us
+        Sobre nosotros
       </NavLink>
     </nav>
   );
