@@ -4,8 +4,8 @@ function MyStory() {
   return (
     <div className="about-content">
       <p>
-        I&apos;m just a simple person with a simple dream - to share my emoji
-        expertise with the world!
+        Soy una persona sencilla con un sueño sencillo: ¡compartir mis
+        conocimientos sobre emojis con el mundo!
       </p>
     </div>
   );

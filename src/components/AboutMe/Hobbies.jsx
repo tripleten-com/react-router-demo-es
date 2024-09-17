@@ -1,13 +1,16 @@
-import './AboutContent.css';
+import "./AboutContent.css";
 
 function Hobbies() {
   return (
     <div className="about-content">
       <p>
-        In addition to my love of emoji criticism, I have a number of additional hobbies. For example, I love to travel to new places, reading science fiction, and ping pong. As a matter of fact, a few years ago, I won a major ping pong competition. Perhaps you heard about it.
+        Aparte de mi pasión por la analítica de emojis, tengo otras aficiones.
+        Por ejemplo, me encanta viajar a nuevos lugares, leer obras de ciencia
+        ficción y jugar al ping pong. Por cierto, hace unos años gané una
+        importante competición de ping pong. Quizá hayas oído hablar de ello.
       </p>
     </div>
-  )
+  );
 }
 
 export default Hobbies;

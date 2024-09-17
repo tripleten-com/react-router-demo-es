@@ -3,7 +3,10 @@ import "./AboutContent.css";
 function Contact() {
   return (
     <div className="about-content">
-      <p>I&apos;m not taking media requests at the moment. Stay tuned!</p>
+      <p>
+        De momento no acepto solicitudes de los medios de comunicación.
+        ¡Mantente atento!
+      </p>
     </div>
   );
 }

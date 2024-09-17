@@ -14,9 +14,11 @@ function Review({ reviews }) {
         <div className="review__item">
           <h3>{reviews[id]?.title}</h3>
           <p>{reviews[id]?.text}</p>
-          <p className="review__rating">Final rating:{reviews[id]?.rating}/5</p>
+          <p className="review__rating">
+            Calificación final:{reviews[id]?.rating}/5
+          </p>
           <button type="button" onClick={() => navigate("/reviews")}>
-            Back to the review list
+            Volver a la lista de reseñas
           </button>
         </div>
       )}

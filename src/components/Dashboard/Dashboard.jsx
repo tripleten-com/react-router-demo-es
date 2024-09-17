@@ -4,11 +4,9 @@ import "./Dashboard.css";
 function Dashboard() {
   return (
     <div className="dashboard">
-      <h1>Emoji Critic — All About Emojis</h1>
-      <p>
-        The #1 Destination for Emoji Reviews on the World Wide Web Since 2020!
-      </p>
-      <Link to="/reviews">Click here to see my latest reviews!</Link>
+      <h1>El analista de Emojis: todo sobre los Emojis</h1>
+      <p>¡El destino #1 de opiniones de emojis en la Web desde 2020!</p>
+      <Link to="/reviews">¡Haz clic aquí para ver mis últimas reseñas!</Link>
     </div>
   );
 }
