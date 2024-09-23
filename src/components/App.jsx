@@ -1,17 +1,17 @@
 import { useEffect, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 
-import Header from "../Header/Header";
-import Dashboard from "../Dashboard/Dashboard";
-import Reviews from "../Reviews/Reviews";
-import Review from "../Review/Review";
-import AboutMe from "../AboutMe/AboutMe";
-import Contact from "../AboutMe/Contact";
-import Hobbies from "../AboutMe/Hobbies";
-import MyStory from "../AboutMe/MyStory";
-import AboutUs from "../AboutUs/AboutUs";
-import SiteHistory from "../AboutUs/SiteHistory";
-import SiteMission from "../AboutUs/SiteMission";
+import Header from "./Header/Header";
+import Dashboard from "./Dashboard/Dashboard";
+import Reviews from "./Reviews/Reviews";
+import Review from "./Review/Review";
+import AboutMe from "./AboutMe/AboutMe";
+import Contact from "./AboutMe/Contact";
+import Hobbies from "./AboutMe/Hobbies";
+import MyStory from "./AboutMe/MyStory";
+import AboutUs from "./AboutUs/AboutUs";
+import SiteHistory from "./AboutUs/SiteHistory";
+import SiteMission from "./AboutUs/SiteMission";
 import "./App.css";
 
 function App() {
