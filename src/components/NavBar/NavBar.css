@@ -30,7 +30,7 @@
     transform: translate(0, 0);
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-end;
   }
 
   .menu__link {
