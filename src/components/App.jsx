@@ -19,7 +19,7 @@ function App() {
   const [reviews, setReviews] = useState([]);
 
   useEffect(() => {
-    fetch("https://api.nomoreparties.co/emoji-critic-ens")
+    fetch("https://emoji-critic.es.tripleten-services.com/v1/reviews")
       .then((res) => {
         return res.json();
       })
